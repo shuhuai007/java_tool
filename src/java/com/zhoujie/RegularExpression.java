@@ -195,33 +195,6 @@ public class RegularExpression {
     }
 
     public static void main(String[] args) {
-        String fix = "---------functionName---------";
-        println(fix.replace("functionName", "validateDigit"));
-        println("1212: " + validateDigit("1212"));
-        println("9955555d: " + validateDigit("9955555d"));
-        println(" : " + validateDigit(" "));
-
-        println(fix.replace("functionName", "validateNDigits"));
-        println("1212: " + validateNDigits("1212", 4));
-        println("1212: " + validateNDigits("1212", 3));
-        println("9955555d: " + validateNDigits("995d", 4));
-        println(" : " + validateNDigits(" ", 1));
-
-        println(fix.replace("functionName", "validateMinNDigits"));
-        println("1212: " + validateMinNDigits("1212", 5));
-        println("1212: " + validateMinNDigits("1212", 4));
-        println("1212: " + validateMinNDigits("1212", 3));
-        println("9955555d: " + validateMinNDigits("995d", 4));
-        println(" : " + validateMinNDigits(" ", 1));
-
-        println(fix.replace("functionName", "validateMNDigits"));
-        println("1212: " + validateMNDigits("1212", 1, 4));
-        println("1212: " + validateMNDigits("1212", 1, 5));
-        println("1212: " + validateMNDigits("1212", 1, 3));
-        println("9955555d: " + validateMNDigits("995d", 1, 4));
-        println(" : " + validateMNDigits(" ", 1, 4));
-
-        println(fix.replace("functionName", "validatePositiveInteger"));
         println("1212: " + validatePositiveInteger("1212"));
         println("0: " + validatePositiveInteger("0"));
         println("+01111: " + validatePositiveInteger("+01111"));
